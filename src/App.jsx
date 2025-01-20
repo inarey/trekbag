@@ -1,5 +1,8 @@
-import BackgroundHeading from "./assets/BackgroundHeading";
-import Footer from "./assets/components/Footer";
+import BackgroundHeading from "./components/BackgroundHeading";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import ItemsList from "./components/ItemsList";
+import Sidebar from "./components/Sidebar";
 
 
 function App() {
@@ -9,7 +12,9 @@ function App() {
     <>
       <BackgroundHeading />
       <main>
-        
+        <Header />
+        <ItemsList />
+        <Sidebar />
       </main>
 
       <Footer />
