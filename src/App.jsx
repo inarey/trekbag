@@ -1,3 +1,5 @@
+import BackgroundHeading from "./assets/BackgroundHeading";
+import Footer from "./assets/components/Footer";
 
 
 function App() {
@@ -5,7 +7,12 @@ function App() {
 
   return (
     <>
-      <h1>from app</h1>
+      <BackgroundHeading />
+      <main>
+        
+      </main>
+
+      <Footer />
     </>
   )
 }
