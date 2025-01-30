@@ -1,18 +1,24 @@
+const initialItems = [
+  { id: 1, name: 'iPhone charger', completed: true },
+  { id: 2, name: 'Eye Mask', completed: false },
+  { id: 3, name: 'Neck Pillow', completed: false }
+]
+
 export default function ItemsList() {
   return (
     <ul>
-      <Item item="item 1" />
-      <Item item="item 2" />
-      <Item item="item 3" />
+      {initialItems.map((item) => {
+        return <Item key={item.id} item={item} />   
+      })}
     </ul>
   )
 }
 
-function Item () {
+function Item ({item}) {
   return (
     <li className="item"> 
       <label>
-        <input type="checkbox" />
+        <input type="checkbox" /> {item.name}
       </label>
     </li>
   )
