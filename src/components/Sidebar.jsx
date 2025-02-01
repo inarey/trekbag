@@ -4,7 +4,7 @@ import ButtonGroup from "./ButtonGroup";
 export default function Sidebar({setItems}) {
   return (
     <div className="sidebar">
-      <AddItemForm setItem={setItems}/>
+      <AddItemForm setItems={setItems}/>
 
       <ButtonGroup /> 
     </div>
