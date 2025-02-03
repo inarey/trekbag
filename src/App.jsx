@@ -33,13 +33,17 @@ function App() {
 
   // mark all as complete
   const handleMarkAllAsComplete = () => {
-    const newItems = items.map((item) => ({ ...item, completed: true }));
+    const newItems = items.map((item) => {
+      return { ...item, completed: true };
+    });
     setItems(newItems);
   };
 
   // mark all as incomplete
   const handleMarkAllAsIncomplete = () => {
-    const newItems = items.map((item) => ({ ...item, completed: false }));
+    const newItems = items.map((item) => {
+      return { ...item, completed: false };
+    });
     setItems(newItems);
   };
   return (

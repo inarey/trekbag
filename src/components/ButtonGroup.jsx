@@ -15,8 +15,12 @@ export default function ButtonGroup({
 
   return (
     <section className='button-group'>
-      {secondaryButtons.map((button, index) => (
-        <Button key={index} buttonType='secondary' onClick={button.onClick}>
+      {secondaryButtons.map((button) => (
+        <Button
+          key={button.text + button.onClick.toString()}
+          buttonType='secondary'
+          onClick={button.onClick}
+        >
           {button.text}
         </Button>
       ))}
