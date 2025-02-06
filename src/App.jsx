@@ -1,8 +1,8 @@
-import BackgroundHeading from "./BackgroundHeading";
-import Footer from "./Footer";
-import Header from "./Header";
-import ItemList from "./ItemList";
-import Sidebar from "./Sidebar";
+
+import BackgroundHeading from "./components/BackgroundHeading";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
 
 function App() {
   return (
