@@ -2,6 +2,7 @@
 import BackgroundHeading from "./components/BackgroundHeading";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ItemList from "./components/ItemsList";
 
 
 function App() {

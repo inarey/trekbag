@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { initialItems } from "../lib/constants";
+import {initialItems} from "../components/lib/constants"
 
 export const useItemsStore = create(
   persist(
