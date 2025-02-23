@@ -1,3 +1,6 @@
-export default function BackgroundHeading() {
-  return <h1>Trekbag</h1>;
+function BackgroundHeading() {
+  return (
+    <div>BackgroundHeading</div>
+  )
 }
+export default BackgroundHeading

@@ -1,23 +1,7 @@
 
-import BackgroundHeading from "./components/BackgroundHeading";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import ItemList from "./components/ItemsList";
-
-
 function App() {
   return (
-    <>
-      <BackgroundHeading />
-
-      <main>
-        <Header />
-        <ItemList />
-        <Sidebar />
-      </main>
-
-      <Footer />
-    </>
+    <div>Hello</div>
   );
 }
 
