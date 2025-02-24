@@ -1,6 +1,6 @@
 function BackgroundHeading() {
   return (
-    <div>BackgroundHeading</div>
+    <h1>TrekBag</h1>
   )
 }
 export default BackgroundHeading

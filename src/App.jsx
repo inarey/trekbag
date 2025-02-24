@@ -1,7 +1,16 @@
+import BackgroundHeading from "./components/BackgroundHeading";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>Hello</div>
+    <>
+    <BackgroundHeading />
+
+    <main>
+
+    </main>
+    <Footer />
+    </>
   );
 }
 
