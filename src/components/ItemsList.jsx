@@ -1,6 +1,5 @@
-function ItemsList() {
+export default function ItemsList() {
   return (
     <div>ItemsList</div>
   )
 }
-export default ItemsList

@@ -1,4 +1,4 @@
-function Footer() {
+export default function Footer() {
   return (
     <footer>
       <small>&copy; 2025 Copyright by ByteGrad</small>
@@ -8,4 +8,3 @@ function Footer() {
     </footer>
   );
 }
-export default Footer;

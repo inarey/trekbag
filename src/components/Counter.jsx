@@ -1,6 +1,5 @@
-function Counter() {
+export default function Counter() {
   return (
-    <div>Counter</div>
+    <p><b>1</b> / 3 is packed</p>
   )
 }
-export default Counter

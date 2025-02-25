@@ -1,6 +1,5 @@
-function ButtonGroup() {
+export default function ButtonGroup() {
   return (
     <div>ButtonGroup</div>
   )
 }
-export default ButtonGroup
