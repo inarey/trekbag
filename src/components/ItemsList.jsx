@@ -1,20 +1,5 @@
-const initialItems = [
-  {
-    name: 'GoodMood',
-    packed: true,
-    id: 1,
-  },
-  {
-    name: 'Water',
-    packed: false,
-    id: 2,
-  },
-  {
-    name: 'Snacks',
-    packed: false,
-    id: 3,
-  },
-];
+import { initialItems } from "./lib/constants";
+
 
 export default function ItemsList() {
   return (
@@ -27,6 +12,8 @@ export default function ItemsList() {
     </div>
   );
 }
+
+
 
 function Item({ item }) {
   return (
